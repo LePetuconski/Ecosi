@@ -8,8 +8,6 @@ import {
   Button,
   Image,
   Icon,
-  IconButton,
-  createIcon,
   IconProps,
   useColorModeValue,
 } from '@chakra-ui/react'
@@ -106,8 +104,6 @@ export default function Hero() {
     </>
   )
 }
-
-
 
 const Blob = (props: IconProps) => {
   return (
