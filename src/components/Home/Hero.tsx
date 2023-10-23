@@ -81,7 +81,7 @@ export default function Hero() {
             />
             <Box
               position={'relative'}
-              height={'300px'}
+              height={['200px','300px']}
               rounded={'2xl'}
               boxShadow={'2xl'}
               width={'full'}
