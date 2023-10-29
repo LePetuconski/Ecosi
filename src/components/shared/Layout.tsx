@@ -5,6 +5,7 @@ import Hero from "../Home/Hero";
 import Parceiros from "../Home/Partners";
 import Footer from "./Footer";
 import BlogHome from "../Home/BlogHome";
+import DraggableBox from "../Home/DraggableBox";
 
 export default function Layout() {
   return (
@@ -14,6 +15,7 @@ export default function Layout() {
         <Hero />
         <Parceiros />
         <BlogHome />
+        <DraggableBox />
       </Container>
       <Footer />
     </>
