@@ -1,17 +1,6 @@
 import {
-  Box,
   Flex,
   Text,
-  IconButton,
-  Button,
-  Stack,
-  Collapse,
-  Icon,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
 } from '@chakra-ui/react'
 import NextLink from "next/link";
