@@ -34,10 +34,8 @@ export default function Navbar() {
           py={{ base: 2 }}
           px={{ base: 4 }}
           align={'center'}
-          
-          >
+        >
           <Flex
-          
             flex={{ base: 1, md: 'auto' }}
             ml={{ base: -2 }}
             display={{ base: 'flex', md: 'none' }}>
@@ -48,7 +46,7 @@ export default function Navbar() {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex  flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
@@ -78,12 +76,12 @@ const DesktopNav = () => {
   return (
     <Stack direction={'row'} spacing={4}>
       {NAV_ITEMS.map((navItem) => (
-        <Box  key={navItem.label}>
-          <Popover  trigger={'hover'} placement={'bottom-start'}>
-              
+        <Box key={navItem.label}>
+          <Popover trigger={'hover'} placement={'bottom-start'}>
+
             <PopoverTrigger>
               <Box
-              borderRadius='60px' bg='gray.100'
+                borderRadius='60px' bg='gray.100'
                 as="a"
                 p={2}
                 href={navItem.href ?? '#'}
